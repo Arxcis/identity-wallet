@@ -1,8 +1,8 @@
 # Reading list Jonas
 
-This is a list of documents you can expect I am able to discuss.
-If you see that an essential document is missing from my reading list, please suggest it, so I can add it.
-If you see that a document is outdated or irrelevant, please let me know, so I can remove it.
+This is a list of documents you can expect that I have basic knowledge about, and able to discuss with others.
+If you see that an essential document is missing from the reading list, please suggest it.
+If you see that a document is outdated or irrelevant, please let me know.
 
 ## Web standards
 
