@@ -2,7 +2,7 @@
 
 ## Use case 1: Do you want the receipt?
 
-You just bought a coffee in the cafeteria, and you want the counter to give you a digital receipt. You want the receipt to be a cryptographically signed certificate, verifying that the transaction took place, issued by the counter. The counter generates the receipt (verifiable certificate) on in their phone. You move your phone near the counters phone and a prompt appears on both screens. The counter accepts to send. You accept to receive, and the receipt is transferred to your phone directly - peer-to-peer. No 3rd party involved.
+You just bought a coffee in the cafeteria, and you want the counter to give you a digital receipt. You want the receipt to be a cryptographically signed certificate, verifying that the transaction took place, issued by the counter. The counter generates the receipt (verifiable certificate) on in their phone. You move your phone near the counters phone and a prompt appears on both screens. The counter accepts to send. You accept to receive, and the receipt is transferred to your phone directly - peer-to-peer. No 3rd party involved. The receipt also includes claims that the counter actually works for the cafeteria, and is allowed to issue receipts to you. You verify the claims against the cafeteria owner's public key, just to make sure. Everything checks out.
 
 ## Use case 2: Transferring a prescription from the doctor to the pharmacy
 
