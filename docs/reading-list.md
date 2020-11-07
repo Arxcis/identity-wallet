@@ -4,6 +4,11 @@ This is a list of documents you can expect that I have basic knowledge about, an
 If you see that an essential document is missing from the reading list, please suggest it.
 If you see that a document is outdated or irrelevant, please let me know.
 
+## General documents
+
+- The Path to Self-Sovereign Identity vision - https://github.com/WebOfTrustInfo/self-sovereign-identity/blob/master/ThePathToSelf-SovereignIdentity.md
+- Open Wallet Architecture design proposal - https://docs.google.com/document/u/4/d/e/2PACX-1vR6GMNrBzDuMvhHGlVeENEMZjijHTVKUueG5f6KshFlsIfcqt1QjsTGNgB8vjEGfDVFRB-dWhe5-Hxc/pub
+
 ## Web standards
 
 ### Verifiable credentials
@@ -24,7 +29,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 - json-ld11 - https://www.w3.org/TR/json-ld11/
 - draft-json-schema - https://tools.ietf.org/html/draft-handrews-json-schema-02 (draft)
 
-### Proofs
+### Proofs / Signatures
 
 - ld-proofs - https://w3c-ccg.github.io/ld-proofs/ (unofficial draft)
 - rfc7515 JWS - https://tools.ietf.org/html/rfc7515
@@ -35,7 +40,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 
 - rfc3986 URI - https://tools.ietf.org/html/rfc3986
 
-## Web API's
+## Browser API's
 
 - Credentials Management API - https://developer.mozilla.org/en-US/docs/Web/API/Credential_Management_API
 - Web Authentication API - https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API
@@ -45,7 +50,3 @@ If you see that a document is outdated or irrelevant, please let me know.
 - Fido2ApiClient - https://developers.google.com/android/reference/com/google/android/gms/fido/fido2/Fido2ApiClient#getRegisterIntent(com.google.android.gms.fido.fido2.api.common.MakeCredentialOptions)
 - KeyChain - https://developer.android.com/reference/android/security/KeyChain
 - KeyStore - https://developer.android.com/reference/java/security/KeyStore
-
-## Articles
-
-- The Path to Self-Sovereign Identity - https://github.com/WebOfTrustInfo/self-sovereign-identity/blob/master/ThePathToSelf-SovereignIdentity.md
