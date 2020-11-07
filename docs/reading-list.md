@@ -17,6 +17,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 - vc-data-model - https://www.w3.org/TR/vc-data-model/
 - vc-use-cases - https://www.w3.org/TR/vc-use-cases/
 - vc-imp-guide - https://www.w3.org/TR/vc-imp-guide/
+- vc-status-rl-2020 Revocation List - https://w3c-ccg.github.io/vc-status-rl-2020/ (unofficial draft)
 
 ### Decentralized identifiers
 
@@ -24,8 +25,9 @@ If you see that a document is outdated or irrelevant, please let me know.
 - did-use-cases - https://www.w3.org/TR/did-use-cases
 - did-spec-registries - https://www.w3.org/TR/did-spec-registries/
 - did-resolution - https://w3c-ccg.github.io/did-resolution/ (unofficial draft)
+- webauthn - https://www.w3.org/TR/webauthn/
 
-### JSON
+### JSON Linked data
 
 - json-ld11 - https://www.w3.org/TR/json-ld11/
 - draft-json-schema - https://tools.ietf.org/html/draft-handrews-json-schema-02 (draft)
@@ -40,6 +42,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 ### Misc
 
 - rfc3986 URI - https://tools.ietf.org/html/rfc3986
+- rfc3987 IRI - https://tools.ietf.org/html/rfc3987
 
 ## Browser API's
 
