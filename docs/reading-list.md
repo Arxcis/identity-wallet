@@ -8,6 +8,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 
 - The Path to Self-Sovereign Identity vision - https://github.com/WebOfTrustInfo/self-sovereign-identity/blob/master/ThePathToSelf-SovereignIdentity.md
 - Open Wallet Architecture design proposal - https://docs.google.com/document/u/4/d/e/2PACX-1vR6GMNrBzDuMvhHGlVeENEMZjijHTVKUueG5f6KshFlsIfcqt1QjsTGNgB8vjEGfDVFRB-dWhe5-Hxc/pub
+- Wallet credentials format support grid - https://hackmd.io/t1cotiReTXCnkpDG8k2tVA
 
 ## Web standards
 
