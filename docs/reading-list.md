@@ -36,10 +36,15 @@ If you see that a document is outdated or irrelevant, please let me know.
 ### Proofs / Signatures
 
 - ld-proofs - https://w3c-ccg.github.io/ld-proofs/ (unofficial draft)
-- rfc7515 JWS - https://tools.ietf.org/html/rfc7515
-- rfc7516 JWE - https://tools.ietf.org/html/rfc7516
-- rfc7519 JWT - https://tools.ietf.org/html/rfc7519
-- webauthn - https://www.w3.org/TR/webauthn/
+- JWS - https://tools.ietf.org/html/rfc7515
+- JWE - https://tools.ietf.org/html/rfc7516
+- JWT - https://tools.ietf.org/html/rfc7519
+
+### Auth
+
+- webauthn - https://www.w3.org/TR/webauthn
+- OAuth2 - https://tools.ietf.org/html/rfc6749
+- openid-connect-core - https://openid.net/specs/openid-connect-core-1_0.html
 
 ### Misc
 
