@@ -6,7 +6,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 
 ## General documents
 
-- [github.com / The Path to Self-Sovereign Identity vision](https://github.com/WebOfTrustInfo/self-sovereign-identity/blob/master/ThePathToSelf-SovereignIdentity.md)
+- [github.com / The Path to Self-Sovereign Identity vision by Christopher Allen](https://github.com/WebOfTrustInfo/self-sovereign-identity/blob/master/ThePathToSelf-SovereignIdentity.md)
 - [docs.google.com / Open Wallet Architecture design proposal](https://docs.google.com/document/u/4/d/e/2PACX-1vR6GMNrBzDuMvhHGlVeENEMZjijHTVKUueG5f6KshFlsIfcqt1QjsTGNgB8vjEGfDVFRB-dWhe5-Hxc/pub)
 - [Hackmd.io / Wallet credentials format support grid](https://hackmd.io/t1cotiReTXCnkpDG8k2tVA)
 - [pdf / The necessity of vaccination passporting in Pakistan](https://trello-attachments.s3.amazonaws.com/5e592c38d62eec435a19f0f5/5f76cc084712fd1c0ff5eff6/90bf84c1e97e0d6bb6214b9cb2e4f12d/Whitepaper_-_Necessity_Of_Vaccination_Passporting.pdf)
