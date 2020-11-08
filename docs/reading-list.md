@@ -27,7 +27,6 @@ If you see that a document is outdated or irrelevant, please let me know.
 - did-use-cases - https://www.w3.org/TR/did-use-cases
 - did-spec-registries - https://www.w3.org/TR/did-spec-registries/
 - did-resolution - https://w3c-ccg.github.io/did-resolution/ (unofficial draft)
-- webauthn - https://www.w3.org/TR/webauthn/
 
 ### JSON Linked data
 
@@ -40,6 +39,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 - rfc7515 JWS - https://tools.ietf.org/html/rfc7515
 - rfc7516 JWE - https://tools.ietf.org/html/rfc7516
 - rfc7519 JWT - https://tools.ietf.org/html/rfc7519
+- webauthn - https://www.w3.org/TR/webauthn/
 
 ### Misc
 
