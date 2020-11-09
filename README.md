@@ -1,0 +1,1 @@
+Repo where I store documents related to my preparations for the identity-wallet bachelor project.

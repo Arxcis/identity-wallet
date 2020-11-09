@@ -38,7 +38,9 @@ If you see that a document is outdated or irrelevant, please let me know.
 - ld-proofs - https://w3c-ccg.github.io/ld-proofs/ (unofficial draft)
 - JWS - https://tools.ietf.org/html/rfc7515
 - JWE - https://tools.ietf.org/html/rfc7516
+- JWK - https://tools.ietf.org/html/rfc7517
 - JWT - https://tools.ietf.org/html/rfc7519
+- id-cryptosuite-registry - https://w3c-ccg.github.io/ld-cryptosuite-registry/ (unofficial)
 
 ### Auth
 
