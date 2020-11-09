@@ -30,7 +30,7 @@ const oneYearFromNow = new Date(new Date().setFullYear(new Date().getFullYear() 
  *   "@context": "https://www.w3.org/ns/did/v1",
  *   "id": randomDid,
  *   "verificationMethod": [{
- *     "id": `${randomDid}#verification-method-rsa`,
+ *     "id": `${randomDid}#rsa`,
  *     "type": ID_CRYPTOSUITE_REGISTRY.RsaVerificationKey2018,
  *     "controller": randomDid,
  *     "expires": oneYearFromNow.toISOString(),
@@ -53,7 +53,7 @@ const didDocument = {
     /** @see https://www.w3.org/TR/did-core/#verification-methods */
     "verificationMethod": [
         {
-            "id": `${randomDid}#verification-method-rsa`,
+            "id": `${randomDid}#rsa`,
             "type": ID_CRYPTOSUITE_REGISTRY.RsaVerificationKey2018,
             "controller": randomDid,
             "expires": oneYearFromNow.toISOString(),
@@ -63,27 +63,27 @@ const didDocument = {
 
     /** @see https://www.w3.org/TR/did-core/#authentication */
     "authentication": [
-        "#verification-method-rsa"
+        "#rsa"
     ],
 
     /** @see https://www.w3.org/TR/did-core/#assertionmethod */
     "assertionMethod": [
-        "#verification-method-rsa"
+        "#rsa"
     ],
 
     /** @see https://www.w3.org/TR/did-core/#keyagreement */
     "keyAgreement": [
-        "#verification-method-rsa"
+        "#rsa"
     ],
 
     /** @see https://www.w3.org/TR/did-core/#capabilityinvocation */
     "capabilityInvocation": [
-        "#verification-method-rsa"
+        "#rsa"
     ],
 
     /** @see https://www.w3.org/TR/did-core/#capabilitydelegation */
     "capabilityDelegation": [
-        "#verification-method-rsa"
+        "#rsa"
     ],
 
     /** @see https://www.w3.org/TR/did-core/#service-endpoints */
