@@ -1,5 +1,5 @@
 did:
-	node make-random-did.mjs --harmony-top-level-await;
+	node random-did.mjs --harmony-top-level-await;
 
 clean:
 	rm ./did:*;

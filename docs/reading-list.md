@@ -19,14 +19,16 @@ If you see that a document is outdated or irrelevant, please let me know.
 - vc-data-model - https://www.w3.org/TR/vc-data-model/
 - vc-use-cases - https://www.w3.org/TR/vc-use-cases/
 - vc-imp-guide - https://www.w3.org/TR/vc-imp-guide/
-- vc-status-rl-2020 Revocation List - https://w3c-ccg.github.io/vc-status-rl-2020/ (unofficial draft)
+- vc-status-rl-2020 Revocation List - https://w3c-ccg.github.io/vc-status-rl-2020/ (draft)
+- vc-extension-registry - https://w3c-ccg.github.io/vc-extension-registry/ (draft)
+- vc-csl2017 - https://w3c-ccg.github.io/vc-csl2017/
 
 ### Decentralized identifiers
 
 - did-core - https://www.w3.org/TR/did-core/
 - did-use-cases - https://www.w3.org/TR/did-use-cases
 - did-spec-registries - https://www.w3.org/TR/did-spec-registries/
-- did-resolution - https://w3c-ccg.github.io/did-resolution/ (unofficial draft)
+- did-resolution - https://w3c-ccg.github.io/did-resolution/ (draft)
 
 ### JSON Linked data
 
@@ -35,12 +37,12 @@ If you see that a document is outdated or irrelevant, please let me know.
 
 ### Proofs / Signatures
 
-- ld-proofs - https://w3c-ccg.github.io/ld-proofs/ (unofficial draft)
+- ld-proofs - https://w3c-ccg.github.io/ld-proofs/ (draft)
+- ld-cryptosuite-registry - https://w3c-ccg.github.io/ld-cryptosuite-registry/ (draft)
 - JWS - https://tools.ietf.org/html/rfc7515
 - JWE - https://tools.ietf.org/html/rfc7516
 - JWK - https://tools.ietf.org/html/rfc7517
 - JWT - https://tools.ietf.org/html/rfc7519
-- id-cryptosuite-registry - https://w3c-ccg.github.io/ld-cryptosuite-registry/ (unofficial)
 
 ### Auth
 

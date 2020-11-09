@@ -45,7 +45,7 @@ const didDocument = {
     "id": randomDid,
 
     /** @see https://www.w3.org/TR/did-core/#alsoknownas */
-    "alsoKnownAs": [],
+    "alsoKnownAs": [`${randomDid}-alt`],
 
     /** @see https://www.w3.org/TR/did-core/#control */
     "controller": [randomDid],
