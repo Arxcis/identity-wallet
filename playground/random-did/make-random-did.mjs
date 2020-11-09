@@ -27,80 +27,79 @@ const oneYearFromNow = new Date(new Date().setFullYear(new Date().getFullYear() 
  * Example of a minimal version of the document below:
  * 
  * const didDocument = {
- *		"@context": "https://www.w3.org/ns/did/v1",
- *	    "id": randomDid,
- *	    "verificationMethod": [{
- *			"id": `${randomDid}#verification-method-rsa`,
- *			"type": ID_CRYPTOSUITE_REGISTRY.RsaVerificationKey2018,
- *			"controller": randomDid,
- *			"expires": oneYearFromNow.toISOString(),
- *			"publicKeyPem": PUBLIC_KEY,
- *		}],
+ *   "@context": "https://www.w3.org/ns/did/v1",
+ *   "id": randomDid,
+ *   "verificationMethod": [{
+ *     "id": `${randomDid}#verification-method-rsa`,
+ *     "type": ID_CRYPTOSUITE_REGISTRY.RsaVerificationKey2018,
+ *     "controller": randomDid,
+ *     "expires": oneYearFromNow.toISOString(),
+ *     "publicKeyPem": PUBLIC_KEY,
+ *   }],
  * };
  */
 const didDocument = {
-	"@context": "https://www.w3.org/ns/did/v1",
+    "@context": "https://www.w3.org/ns/did/v1",
 
-	/** @see https://www.w3.org/TR/did-core/#did-subject */
-	"id": randomDid,
+    /** @see https://www.w3.org/TR/did-core/#did-subject */
+    "id": randomDid,
 
-	/** @see https://www.w3.org/TR/did-core/#alsoknownas */
-	"alsoKnownAs": [],
+    /** @see https://www.w3.org/TR/did-core/#alsoknownas */
+    "alsoKnownAs": [],
 
-	/** @see https://www.w3.org/TR/did-core/#control */
-	"controller": [randomDid],
+    /** @see https://www.w3.org/TR/did-core/#control */
+    "controller": [randomDid],
 
-	/** @see https://www.w3.org/TR/did-core/#verification-methods */
-	"verificationMethod": [
-		{
-			"id": `${randomDid}#verification-method-rsa`,
-			"type": ID_CRYPTOSUITE_REGISTRY.RsaVerificationKey2018,
-			"controller": randomDid,
-			"expires": oneYearFromNow.toISOString(),
-			"publicKeyPem": PUBLIC_KEY,
-		}
-	],
+    /** @see https://www.w3.org/TR/did-core/#verification-methods */
+    "verificationMethod": [
+        {
+            "id": `${randomDid}#verification-method-rsa`,
+            "type": ID_CRYPTOSUITE_REGISTRY.RsaVerificationKey2018,
+            "controller": randomDid,
+            "expires": oneYearFromNow.toISOString(),
+            "publicKeyPem": PUBLIC_KEY,
+        }
+    ],
 
-	/** @see https://www.w3.org/TR/did-core/#authentication */
-	"authentication": [
-		"#verification-method-rsa"
-	], 
-	
-	/** @see https://www.w3.org/TR/did-core/#assertionmethod */
-	"assertionMethod": [
-		"#verification-method-rsa"
-	],
+    /** @see https://www.w3.org/TR/did-core/#authentication */
+    "authentication": [
+        "#verification-method-rsa"
+    ],
 
-	/** @see https://www.w3.org/TR/did-core/#keyagreement */
-	"keyAgreement": [
-		"#verification-method-rsa"
-	],
-		
-	/** @see https://www.w3.org/TR/did-core/#capabilityinvocation */
-	"capabilityInvocation": [
-		"#verification-method-rsa"
-	],
+    /** @see https://www.w3.org/TR/did-core/#assertionmethod */
+    "assertionMethod": [
+        "#verification-method-rsa"
+    ],
 
-	/** @see https://www.w3.org/TR/did-core/#capabilitydelegation */
-	"capabilityDelegation": [
-		"#verification-method-rsa"
-	],
+    /** @see https://www.w3.org/TR/did-core/#keyagreement */
+    "keyAgreement": [
+        "#verification-method-rsa"
+    ],
 
-	/** @see https://www.w3.org/TR/did-core/#service-endpoints */
-	"service": []
+    /** @see https://www.w3.org/TR/did-core/#capabilityinvocation */
+    "capabilityInvocation": [
+        "#verification-method-rsa"
+    ],
+
+    /** @see https://www.w3.org/TR/did-core/#capabilitydelegation */
+    "capabilityDelegation": [
+        "#verification-method-rsa"
+    ],
+
+    /** @see https://www.w3.org/TR/did-core/#service-endpoints */
+    "service": []
 }
-
 
 await fs.writeFile(`${randomDid}.document`, JSON.stringify(didDocument, null, 2))
 
 import { exec } from "child_process";
 export function shell(cmd) {
-	return new Promise((resolve, reject) => {
-	  exec(cmd, (error, stdout, stderr) => {
-		if (error) {
-		  reject(error);
-		}
-		resolve(stdout ? stdout : stderr);
-	  });
-	});
-  }
+    return new Promise((resolve, reject) => {
+        exec(cmd, (error, stdout, stderr) => {
+            if (error) {
+                reject(error);
+            }
+            resolve(stdout ? stdout : stderr);
+        });
+    });
+}
