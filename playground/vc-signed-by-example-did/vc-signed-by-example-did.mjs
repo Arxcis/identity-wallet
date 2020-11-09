@@ -44,9 +44,10 @@ async function makeDid(did) {
 
 const issuerDid = `did:demo:issuer`;
 const subjectDid = `did:demo:subject`;
-await makeDid(issuerDid);
-await makeDid(subjectDid);
-
+await Promise.all([
+    makeDid(issuerDid),
+    makeDid(subjectDid),
+]);
 
 /**
  * Generate verifiable credential signed by ¨did'
