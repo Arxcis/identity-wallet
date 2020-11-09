@@ -84,11 +84,11 @@ await shell(`\
 openssl dgst\
     -sha256 \
     -sign ${issuerDid}.rsa.private \
-    -out ${credentialFilename}.sign \
+    -out ${credentialFilename}.signature \
     ${credentialFilename}`
 );
 
-const file = await fs.readFile(`${credentialFilename}.sign`, { encoding: 'base64' })
+const file = await fs.readFile(`${credentialFilename}.signature`, { encoding: 'base64' })
 
 /**
  * @see https://w3c-ccg.github.io/ld-proofs/#example-2-a-simple-signed-linked-data-document 
@@ -108,7 +108,7 @@ const veriafiableCredential = {
     proof
 }
 
-await fs.writeFile(`${credentialFilename}.vc`, JSON.stringify(veriafiableCredential, null, 2))
+await fs.writeFile(`${credentialFilename}.verifiable`, JSON.stringify(veriafiableCredential, null, 2))
 
 
 /** shell - helper-function to do shell commands */
