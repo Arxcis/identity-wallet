@@ -88,10 +88,16 @@ openssl dgst\
 );
 
 const file = await fs.readFile(`${credentialFilename}.sign`, { encoding: 'base64' })
+
+/**
+ * @see https://w3c-ccg.github.io/ld-proofs/#example-2-a-simple-signed-linked-data-document 
+ * @see https://w3c-ccg.github.io/lds-rsa2018/#examples 
+ */
 const proof = [{
     "type": ID_CRYPTOSUITE_REGISTRY.RsaSignature2018,
     "created": now.toISOString(),
     "proofPurpose": "assertionMethod",
+    "domain": issuerDid,
     "verificationMethod": `${issuerDid}#${verificationMethodRsa}`,
     "signatureValue": file.toString()
 }]
