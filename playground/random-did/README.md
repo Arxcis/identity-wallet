@@ -1,3 +1,3 @@
-## Demo - Generating random dids
+## Demo - Generating random did's
 
 [![asciicast](https://asciinema.org/a/HdjwhMUXaDOR5y31iiy0WLIBt.svg)](https://asciinema.org/a/HdjwhMUXaDOR5y31iiy0WLIBt)
