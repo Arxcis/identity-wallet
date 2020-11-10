@@ -35,7 +35,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 - did-spec-registries - https://www.w3.org/TR/did-spec-registries/
 - did-resolution - https://w3c-ccg.github.io/did-resolution/ (draft)
 
-### JSON-LD
+### JSON Linked Data (LD)
 
 - json-ld11 - https://www.w3.org/TR/json-ld11/
 - draft-json-schema - https://tools.ietf.org/html/draft-handrews-json-schema-02 (draft)
