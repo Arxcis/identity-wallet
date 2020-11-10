@@ -19,7 +19,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 
 ## Web standards
 
-### Verifiable credentials
+### Verifiable credentials (VC)
 
 - vc-data-model - https://www.w3.org/TR/vc-data-model/
 - vc-use-cases - https://www.w3.org/TR/vc-use-cases/
@@ -28,12 +28,16 @@ If you see that a document is outdated or irrelevant, please let me know.
 - vc-csl2017 - https://w3c-ccg.github.io/vc-csl2017/
 - vc-status-rl-2020 Revocation List - https://w3c-ccg.github.io/vc-status-rl-2020/ (draft)
 
-### Decentralized identifiers
+### Decentralized identifiers (DID)
 
 - did-core - https://www.w3.org/TR/did-core/
 - did-use-cases - https://www.w3.org/TR/did-use-cases
 - did-spec-registries - https://www.w3.org/TR/did-spec-registries/
 - did-resolution - https://w3c-ccg.github.io/did-resolution/ (draft)
+
+### DID Methods
+
+- IPFS / ipid-did-method - https://did-ipid.github.io/ipid-did-method/
 
 ### JSON Linked Data (LD)
 
