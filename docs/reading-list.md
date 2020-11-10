@@ -4,6 +4,11 @@ This is a list of documents you can expect that I have basic knowledge about, an
 If you see that an essential document is missing from the reading list, please suggest it.
 If you see that a document is outdated or irrelevant, please let me know.
 
+## Videos
+
+- [youtube.com/SSI-meetup / Decentralized identifiers fundamentals deep dive](https://www.youtube.com/watch?v=SHuRRaOBMz4)
+- [youtube.com/SSI-meetup / The state of Digital Wallets with Darell O'Donnell](https://www.youtube.com/watch?v=vWsLZnfRyyo&feature=emb_logo)
+
 ## General documents
 
 - [github.com / The Path to Self-Sovereign Identity vision by Christopher Allen](https://github.com/WebOfTrustInfo/self-sovereign-identity/blob/master/ThePathToSelf-SovereignIdentity.md)
