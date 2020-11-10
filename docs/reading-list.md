@@ -35,13 +35,14 @@ If you see that a document is outdated or irrelevant, please let me know.
 - json-ld11 - https://www.w3.org/TR/json-ld11/
 - draft-json-schema - https://tools.ietf.org/html/draft-handrews-json-schema-02 (draft)
 
-### Linked data
+### JSON Linked data
 
 - ld-proofs - https://w3c-ccg.github.io/ld-proofs/ (draft)
 - ld-cryptosuite-registry - https://w3c-ccg.github.io/ld-cryptosuite-registry/ (draft)
 - ld-rsa2018 - https://w3c-ccg.github.io/lds-rsa2018/
+- ld-normalization - https://json-ld.github.io/normalization/spec/
 
-### Jxx
+### JSON
 
 - JWS - https://tools.ietf.org/html/rfc7515
 - JWE - https://tools.ietf.org/html/rfc7516
