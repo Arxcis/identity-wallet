@@ -79,7 +79,9 @@ const unverifiableCredential = {
 
 const credentialFilename = `${issuerDid}.credential.${credentialId}`;
 
-await fs.writeFile(credentialFilename, JSON.stringify(unverifiableCredential, null, 2))
+import { canonicalize } from "../../lib/canonicalize.mjs"
+
+await fs.writeFile(credentialFilename, canonicalize(unverifiableCredential))
 await shell(`\
 openssl dgst\
     -sha256 \
