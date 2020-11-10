@@ -49,7 +49,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 - JWA - https://tools.ietf.org/html/rfc7518
 - JWT - https://tools.ietf.org/html/rfc7519
 - JWS Unencoded option - https://tools.ietf.org/html/rfc7797
-- JCS - https://tools.ietf.org/html/draft-rundgren-json-canonicalization-scheme-15#appendix-A
+- JCS - https://tools.ietf.org/html/draft-rundgren-json-canonicalization-scheme-15
 
 ### Auth
 

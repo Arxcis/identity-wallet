@@ -3,7 +3,6 @@ vc:
 
 
 clean:
-	rm ./did:*;
+	rm ./did:* ./tmp*
 
 .PHONY: vc clean
-
