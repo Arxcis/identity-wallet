@@ -35,19 +35,16 @@ If you see that a document is outdated or irrelevant, please let me know.
 - did-spec-registries - https://www.w3.org/TR/did-spec-registries/
 - did-resolution - https://w3c-ccg.github.io/did-resolution/ (draft)
 
-### JSON Linked data
+### JSON-LD
 
 - json-ld11 - https://www.w3.org/TR/json-ld11/
 - draft-json-schema - https://tools.ietf.org/html/draft-handrews-json-schema-02 (draft)
-
-### JSON Linked data
-
 - ld-proofs - https://w3c-ccg.github.io/ld-proofs/ (draft)
 - ld-cryptosuite-registry - https://w3c-ccg.github.io/ld-cryptosuite-registry/ (draft)
 - ld-rsa2018 - https://w3c-ccg.github.io/lds-rsa2018/
 - ld-normalization - https://json-ld.github.io/normalization/spec/
 
-### JSON
+### JSON Legacy
 
 - JWS - https://tools.ietf.org/html/rfc7515
 - JWE - https://tools.ietf.org/html/rfc7516
