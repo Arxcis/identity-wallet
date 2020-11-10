@@ -35,6 +35,10 @@ If you see that a document is outdated or irrelevant, please let me know.
 - did-spec-registries - https://www.w3.org/TR/did-spec-registries/
 - did-resolution - https://w3c-ccg.github.io/did-resolution/ (draft)
 
+### Did Methods
+
+- ipid-did-method - https://did-ipid.github.io/ipid-did-method/
+
 ### JSON Linked Data (LD)
 
 - json-ld11 - https://www.w3.org/TR/json-ld11/
