@@ -1,17 +1,15 @@
+import { writeFile } from "fs/promises";
 import { rsaProof, LD_CRYPTOSUITE_REGISTRY } from "../../lib/ld-proofs.mjs"
-import { shell } from "../../lib/shell.mjs"
-import { writeFile, readFile } from "fs/promises";
+import { writeRsaKeyPair, readRsaPublicKey, readRsaPrivateKey } from "../../lib/did-keys.mjs"
 
 const verificationMethodRsa = "rsa";
 const oneYearFromNow = new Date(new Date().setFullYear(new Date().getFullYear() + 1));
 const now = new Date()
 
-async function makeDid(did) { 
-    await shell(`openssl genrsa -out ./${did}.${verificationMethodRsa}.private 1024`);
-    await shell(`openssl rsa -in ./${did}.${verificationMethodRsa}.private -out ./${did}.${verificationMethodRsa}.public -pubout -outform PEM`);
+async function makeDid(did) {
+    await writeRsaKeyPair(did, 1024)
 
-    /** PUBLIC_KEY - example: "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n" */
-    const PUBLIC_KEY = await shell(`cat ./${did}.${verificationMethodRsa}.public`);
+    const PUBLIC_KEY = await readRsaPublicKey(did)
 
     const didDocument = {
         "@context": "https://www.w3.org/ns/did/v1",
@@ -73,7 +71,7 @@ const unverifiableCredential = {
     },
 };
 
-const PRIVATE_KEY = (await readFile(`${issuerDid}.rsa.private`)).toString();
+const PRIVATE_KEY = await readRsaPrivateKey(issuerDid);
 
 const proof = await rsaProof(PRIVATE_KEY, unverifiableCredential, {
     "created": now.toISOString(),

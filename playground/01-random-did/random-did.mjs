@@ -1,31 +1,31 @@
 import crypto from "crypto";
 import fs from "fs/promises";
+import { writeRsaKeyPair, readRsaPublicKey } from "../../lib/did-keys.mjs"
 
 /** @see https://www.w3.org/TR/did-core/#did-syntax */
 const randomDid = `did:random:${crypto.randomBytes(16).toString('hex')}`;
 
-await shell(`openssl genrsa -out ./${randomDid}.rsa.private 1024`);
-await shell(`openssl rsa -in ./${randomDid}.rsa.private -out ./${randomDid}.rsa.public -pubout -outform PEM`);
+await writeRsaKeyPair(randomDid, 1024)
 
 /** PUBLIC_KEY - example: "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n" */
-const PUBLIC_KEY = await shell(`cat ./${randomDid}.rsa.public`);
+const PUBLIC_KEY = await readRsaPublicKey(randomDid)
 
-/** 
+/**
  * @see https://www.w3.org/TR/did-core/#key-types-and-formats
  *  and
- * @see https://w3c-ccg.github.io/ld-cryptosuite-registry/ 
+ * @see https://w3c-ccg.github.io/ld-cryptosuite-registry/
  */
 const ID_CRYPTOSUITE_REGISTRY = {RsaVerificationKey2018: "RsaVerificationKey2018"}
 
 const oneYearFromNow = new Date(new Date().setFullYear(new Date().getFullYear() + 1));
 
 
-/** 
+/**
  * The did-document below intentionally uses all possible keys, as a learning exercice.
  * Thus it is overly verbose, and most of the keys could have been left out.
- * 
+ *
  * Example of a minimal version of the document below:
- * 
+ *
  * const didDocument = {
  *   "@context": "https://www.w3.org/ns/did/v1",
  *   "id": randomDid,
