@@ -1,6 +1,6 @@
 import { rsaProof, LD_CRYPTOSUITE_REGISTRY } from "../../lib/ld-proofs.mjs"
 import { shell } from "../../lib/shell.mjs"
-import { writeFile } from "fs/promises";
+import { writeFile, readFile } from "fs/promises";
 
 const verificationMethodRsa = "rsa";
 const oneYearFromNow = new Date(new Date().setFullYear(new Date().getFullYear() + 1));
@@ -73,7 +73,9 @@ const unverifiableCredential = {
     },
 };
 
-const proof = await rsaProof(`${issuerDid}.rsa.private`, unverifiableCredential, {
+const PRIVATE_KEY = (await readFile(`${issuerDid}.rsa.private`)).toString();
+
+const proof = await rsaProof(PRIVATE_KEY, unverifiableCredential, {
     "created": now.toISOString(),
     "proofPurpose": "assertionMethod",
     "domain": issuerDid,
