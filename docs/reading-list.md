@@ -6,8 +6,8 @@ If you see that a document is outdated or irrelevant, please let me know.
 
 ## Videos
 
-- [youtube.com/SSI-meetup / Decentralized identifiers fundamentals deep dive](https://www.youtube.com/watch?v=SHuRRaOBMz4)
-- [youtube.com/SSI-meetup / The state of Digital Wallets with Darell O'Donnell](https://www.youtube.com/watch?v=vWsLZnfRyyo&feature=emb_logo)
+- [youtube.com/SSI-meetup / Decentralized identifiers fundamentals deep dive webinar](https://www.youtube.com/watch?v=SHuRRaOBMz4)
+- [youtube.com/SSI-meetup / The state of Digital Wallets with Darell O'Donnell webinar](https://www.youtube.com/watch?v=vWsLZnfRyyo&feature=emb_logo)
 
 ## General documents
 
