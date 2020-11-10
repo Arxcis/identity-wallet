@@ -53,6 +53,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 - JWT - https://tools.ietf.org/html/rfc7519
 - JWS Unencoded option - https://tools.ietf.org/html/rfc7797
 - JCS - https://tools.ietf.org/html/draft-rundgren-json-canonicalization-scheme-15
+- JSON - https://tools.ietf.org/html/rfc8259
 
 ### Auth
 
