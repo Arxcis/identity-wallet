@@ -73,7 +73,7 @@ const unverifiableCredential = {
     },
 };
 
-const proof = rsaProof(`${issuerDid}.rsa.private`, unverifiableCredential, {
+const proof = await rsaProof(`${issuerDid}.rsa.private`, unverifiableCredential, {
     "created": now.toISOString(),
     "proofPurpose": "assertionMethod",
     "domain": issuerDid,
