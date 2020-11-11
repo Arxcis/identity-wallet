@@ -40,6 +40,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 
 - IPFS / ipid-did-method - https://did-ipid.github.io/ipid-did-method/
 - Sidetree - https://identity.foundation/sidetree/spec/
+- HTTPS / web-did-resolver - https://github.com/decentralized-identity/web-did-resolver
 
 ### JSON Linked Data (LD)
 
