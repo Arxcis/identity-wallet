@@ -39,6 +39,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 ### DID Methods
 
 - IPFS / ipid-did-method - https://did-ipid.github.io/ipid-did-method/
+- Sidetree - https://identity.foundation/sidetree/spec/
 
 ### JSON Linked Data (LD)
 
