@@ -42,6 +42,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 - Sidetree - https://identity.foundation/sidetree/spec/
 - web-did-resolver - https://github.com/decentralized-identity/web-did-resolver
 - github-did - https://github.com/decentralized-identity/github-did/blob/master/docs/did-method-spec/index.md
+- did-method-key - https://w3c-ccg.github.io/did-method-key/
 
 ### JSON Linked Data (LD)
 
