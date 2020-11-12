@@ -38,12 +38,12 @@ If you see that a document is outdated or irrelevant, please let me know.
 
 ### DID Methods
 
-- IPFS / ipid-did-method - https://did-ipid.github.io/ipid-did-method/
-- Sidetree - https://identity.foundation/sidetree/spec/
-- web-did-resolver - https://github.com/decentralized-identity/web-did-resolver
-- github-did - https://github.com/decentralized-identity/github-did/blob/master/docs/did-method-spec/index.md
-- did-method-key - https://w3c-ccg.github.io/did-method-key/
-- peer-did-method - https://identity.foundation/peer-did-method-spec/
+- did:ipid - https://did-ipid.github.io/ipid-did-method/
+- did:sidetree - https://identity.foundation/sidetree/spec/
+- did:web - https://github.com/decentralized-identity/web-did-resolver
+- did:github - https://github.com/decentralized-identity/github-did/blob/master/docs/did-method-spec/index.md
+- did:key - https://w3c-ccg.github.io/did-method-key/
+- did:peer - https://identity.foundation/peer-did-method-spec/
 
 ### JSON Linked Data (LD)
 
