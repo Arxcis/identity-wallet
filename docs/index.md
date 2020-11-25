@@ -1,18 +1,12 @@
 # DIN Wiki
 
 ## Index
-- [SSI Overview](#overview)
+- [SSI Overview](./overview.md)
 - [Layer 1: Decentralized Identifiers (DID)](#layer1)
 - [Layer 2: Agent Layer (Communication, Storage, Key Management)](#layer2)
 - [Layer 3: Verifiable Credentials (VC)](#layer3)
 - [Layer 4: Application Layer (Use Cases)](#layer4)
 - [Crosscutting topics](#crosscutting)
-
-<h2 id="overview">SSI Overview</h2>
-
-- [whimsical.com / Decentralized Mapping Exercise](https://whimsical.com/decentralized-mapping-exercise-CUhk3dT4RUZvGa4Lt7rNvD)
-- [github.com / The Path to Self-Sovereign Identity by Christopher Allen](https://github.com/WebOfTrustInfo/self-sovereign-identity/blob/master/ThePathToSelf-SovereignIdentity.md)
-- [Trello pdf / The Future of Identity: Self-Sovereignity, Digital Wallets, and Blockchain in-depth report](https://trello-attachments.s3.amazonaws.com/5e592c38d62eec435a19f0f5/5f76cc084712fd1c0ff5eff6/e3aead1ae6c88a1c3650d62842b001ef/Self-Sovereign-Identity-The-Future-of-Identity-Self-Sovereignity-Digital-Wallets-and-Blockchain.pdf)
 
 
 <h2 id="layer1">Layer 1: Decentralized Identifiers (DID)</h1>
