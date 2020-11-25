@@ -6,8 +6,8 @@ If you see that a document is outdated or irrelevant, please let me know.
 
 ## Videos
 
-- [SSI-Meetup Webinar / Decentralized identifiers fundamentals deep dive](https://www.youtube.com/watch?v=SHuRRaOBMz4)
-- [SSI-Meetup Webinar / The state of Digital Wallets with Darell O'Donnell](https://www.youtube.com/watch?v=vWsLZnfRyyo)
+- [youtube.com / SSI-Meetup Webinar / Decentralized identifiers fundamentals deep dive](https://www.youtube.com/watch?v=SHuRRaOBMz4)
+- [youtube.com / SSI-Meetup Webinar / The state of Digital Wallets with Darell O'Donnell](https://www.youtube.com/watch?v=vWsLZnfRyyo)
 - [SSI-Meetup Webinar / Hyperledger Aries](https://ssimeetup.org/hyperledger-aries-open-source-interoperable-identity-solutions-nathan-george-webinar-30/)
 
 ## General documents
@@ -71,7 +71,7 @@ If you see that a document is outdated or irrelevant, please let me know.
 - OAuth2 - https://tools.ietf.org/html/rfc6749
 - openid-connect-core - https://openid.net/specs/openid-connect-core-1_0.html
 
-### Misc
+### URI and IRI
 
 - rfc3986 URI - https://tools.ietf.org/html/rfc3986
 - rfc3987 IRI - https://tools.ietf.org/html/rfc3987
