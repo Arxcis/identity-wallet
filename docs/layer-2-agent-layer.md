@@ -1,5 +1,4 @@
-<h1 id="layer-2-agent-layer">Layer 2: Agent Layer (Communication, Storage, Key Management)</h1>
-
+## Layer 2: Agent Layer (Communication, Storage, Key Management)
 ### Wallet
 - [Hackmd.io / Wallet credentials format support grid](https://hackmd.io/t1cotiReTXCnkpDG8k2tVA)
 - [docs.google.com / Open Wallet Architecture design proposal](https://docs.google.com/document/u/4/d/e/2PACX-1vR6GMNrBzDuMvhHGlVeENEMZjijHTVKUueG5f6KshFlsIfcqt1QjsTGNgB8vjEGfDVFRB-dWhe5-Hxc/pub)
