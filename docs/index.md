@@ -1,5 +1,4 @@
-## Index
-
+## Self-soverign Identity (SSI)
 
 [SSI Overview >](./ssi-overview.md)
 
@@ -12,3 +11,15 @@
 [Layer 4: Application Layer (Use Cases) >](./layer-4-application-layer.md)
 
 [Cross-layer >](./cross-layer.md)
+
+
+## DIN Foundation
+
+[Home page > https://www.din.foundation](https://www.din.foundation/)
+
+[Github > https://github.com/DIN-Foundation](https://github.com/DIN-Foundation/)
+
+[Slack > https://join.slack.com/t/din-foundation](https://join.slack.com/t/din-foundation/shared_invite/zt-j6j3dgh0-z8jz1Fc3xLzUGXpnsuWmLg)
+
+[Discord > https://discord.gg/2WGpa9b](https://discord.gg/2WGpa9b)
+
