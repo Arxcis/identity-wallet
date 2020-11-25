@@ -1,14 +1,5 @@
 ## Cross-layer
 
-### JSON Linked Data (LD)
-
-- [w3.org / json-ld11](https://www.w3.org/TR/json-ld11/)
-- [tools.ietf / draft-json-schema](https://tools.ietf.org/html/draft-handrews-json-schema-02)
-- [w3c-ccg.github.io / ld-proofs](https://w3c-ccg.github.io/ld-proofs/)
-- [w3c-ccg.github.io / ld-cryptosuite-registry](https://w3c-ccg.github.io/ld-cryptosuite-registry/)
-- [w3c-ccg.github.io / ld-rsa2018](https://w3c-ccg.github.io/lds-rsa2018/)
-- [json-ld.github.io / ld-normalization](https://json-ld.github.io/normalization/spec/)
-
 ### JSON Legacy
 
 - [tools.ietf / JWS](https://tools.ietf.org/html/rfc7515)

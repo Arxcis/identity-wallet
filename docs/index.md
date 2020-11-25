@@ -15,11 +15,11 @@
 
 ## DIN Foundation
 
-[Home page > https://www.din.foundation](https://www.din.foundation/)
+[Home page >](https://www.din.foundation/)
 
-[Github > https://github.com/DIN-Foundation](https://github.com/DIN-Foundation/)
+[Github >](https://github.com/DIN-Foundation/)
 
-[Slack > https://join.slack.com/t/din-foundation](https://join.slack.com/t/din-foundation/shared_invite/zt-j6j3dgh0-z8jz1Fc3xLzUGXpnsuWmLg)
+[Slack >](https://join.slack.com/t/din-foundation/shared_invite/zt-j6j3dgh0-z8jz1Fc3xLzUGXpnsuWmLg)
 
-[Discord > https://discord.gg/2WGpa9b](https://discord.gg/2WGpa9b)
+[Discord >](https://discord.gg/2WGpa9b)
 

@@ -13,5 +13,6 @@
 - [youtube.com / SSI-Meetup Webinar / The state of Digital Wallets with Darell O'Donnell](https://www.youtube.com/watch?v=vWsLZnfRyyo)
 - [youtube.com / SSI-Meetup Webinar / Hyperledger Aries](https://ssimeetup.org/hyperledger-aries-open-source-interoperable-identity-solutions-nathan-george-webinar-30/)
 - [youtube.com / Evernym Webinar / The Future of Digital Wallets](https://www.youtube.com/watch?v=MHXd4BhEBw0&feature=youtu.be&t=313)
+- [github.com / w3c-ccg / Universal Wallet interop spec](https://github.com/w3c-ccg/universal-wallet-interop-spec)
 
 [< Go back](./index.md)
