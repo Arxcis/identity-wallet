@@ -13,7 +13,7 @@
 - [did-ipid.github.io / did:ipid](https://did-ipid.github.io/ipid-did-method/)
 - [identity.foundation / did:peer](https://identity.foundation/peer-did-method-spec/)
 - [identity.foundation / did:sidetree](https://identity.foundation/sidetree/spec/)
-- [github.com/decentralized-identity / did:web](https://github.com/decentralized-identity/web-did-resolver)
-- [github.com/decentralized-identity / did:github](https://github.com/decentralized-identity/github-did/blob/master/docs/did-method-spec/index.md)
+- [github.com / decentralized-identity / did:web](https://github.com/decentralized-identity/web-did-resolver)
+- [github.com / decentralized-identity / did:github](https://github.com/decentralized-identity/github-did/blob/master/docs/did-method-spec/index.md)
 
 [< Go back](./index.md)
