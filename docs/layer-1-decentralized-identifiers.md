@@ -16,4 +16,4 @@
 - did:key - https://w3c-ccg.github.io/did-method-key/
 - did:peer - https://identity.foundation/peer-did-method-spec/
 
-[< Go back](./index)
+[< Go back](./index.md)

@@ -26,4 +26,4 @@
 - rfc3987 IRI - https://tools.ietf.org/html/rfc3987
 
 
-[< Go back](./index)
+[< Go back](./index.md)

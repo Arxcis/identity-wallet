@@ -8,4 +8,4 @@
 - vc-csl2017 - https://w3c-ccg.github.io/vc-csl2017/
 - vc-status-rl-2020 Revocation List - https://w3c-ccg.github.io/vc-status-rl-2020/ (draft)
 
-[< Go back](./index)
+[< Go back](./index.md)
